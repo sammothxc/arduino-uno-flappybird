@@ -20,6 +20,8 @@
 // http://en.radzio.dxp.pl/bitmap_converter/
 
 #include <Arduino.h>
+#define xbm_h 9
+#define xbm_w 14
 
 const uint8_t background[] PROGMEM = {
   0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 

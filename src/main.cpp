@@ -42,12 +42,10 @@
 #define oled_w 128
 #define oled_h 64
 #define flappy_addr 0
-#define xbm_h 9
-#define xbm_w 14
 #define map_buffer 4
 #define speed_u 0.03
 #define speed_d 0.01
-Adafruit_SSD1306 display = Adafruit_SSD1306(128, 64, &Wire, -1);///////////////////////////////////////////////////////////
+Adafruit_SSD1306 display = Adafruit_SSD1306(oled_w, oled_h, &Wire, -1);///////////////////////////////////////////////////////////
 /////////////////////// VARIABLES /////////////////////////
 ///////////////////////////////////////////////////////////
 unsigned long current = 0;
